@@ -1,0 +1,24 @@
+Dependencies for Project 'exp_uart', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x692719CB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/PC/AppData/Local/arm/packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/PC/AppData/Local/arm/packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="541" -DSTM32F070xB -D_RTE_ -DPRE_INCLUDE_GLOBAL_H  -include "Pre_Include_Global.h"-o ./objects/main.o -MMD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x68E410F4)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f070xb.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm0.h)(0x68FCBF61)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x67A7846B)
+I (usart.h)(0x692717D9)
+F (.\usart.h)(0x692717D9)()
+F (.\usart.c)(0x69271952)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/PC/AppData/Local/arm/packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/PC/AppData/Local/arm/packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="541" -DSTM32F070xB -D_RTE_ -DPRE_INCLUDE_GLOBAL_H  -include "Pre_Include_Global.h"-o ./objects/usart.o -MMD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x68E410F4)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f070xb.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm0.h)(0x68FCBF61)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x67A7846B)
+I (usart.h)(0x692717D9)
+F (RTE/Device/STM32F070RBTx/startup_stm32f070xb.s)(0x67A7846B)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/PC/AppData/Local/arm/packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/PC/AppData/Local/arm/packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"STM32F070xB SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f070xb.o)
+F (RTE/Device/STM32F070RBTx/system_stm32f0xx.c)(0x67A7846B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/PC/AppData/Local/arm/packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/PC/AppData/Local/arm/packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="541" -DSTM32F070xB -D_RTE_ -DPRE_INCLUDE_GLOBAL_H  -include "Pre_Include_Global.h"-o ./objects/system_stm32f0xx.o -MMD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x68E410F4)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f070xb.h)(0x67A7846B)
+I (C:\Users\PC\AppData\Local\arm\packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm0.h)(0x68FCBF61)
+I (C:\Users\PC\AppData\Local\arm\packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x67A7846B)
