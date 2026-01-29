@@ -1,1 +1,54 @@
-STM32 Embedded Systems ProjectsThis repository contains my learning journey and driver implementations for various STM32 microcontrollers. The projects range from basic GPIO manipulation to more complex peripheral integrations like ADC, UART, and LCD interfacing.📂 Repository StructureThe projects are organized by microcontroller family and development environment.1. STM32F070 (Value Line)Recent work focused on the F070RB series.Project FolderDescriptionStatus/Dateled_blink_F070Basic GPIO output test (Hello World of embedded).Jan 2026adc_F070Analog-to-Digital Converter implementation for sensor reading.Jan 2026pwm_F070Pulse Width Modulation setup (likely for LED brightness or motor control).Jan 2026uart_F070Serial communication driver implementation.Jan 20262. STM32F107VC / Peripheral ExperimentsDriver development and modular testing.7-segment/: Driver for multiplexing or driving 7-segment displays.LCD_deneme/: LCD interfacing trials (init sequences and character display).USART/: Universal Synchronous/Asynchronous Receiver-Transmitter communication.Timers/: Hardware timer configuration for delays or periodic interrupts.PWM/: Signal generation tests.Buzzer/: Passive/Active buzzer control logic.EX33D project/: [Placeholder: Add specific details about this recent project from Jan 2026].3. Simulationproteus_F103c8/: Proteus simulation files for the STM32F103C8 (Blue Pill), used for verifying logic before hardware deployment.🛠 Tools & SoftwareIDE: Keil uVision 5 (MDK-ARM)Hardware:STM32F070RBSTM32F107VCSTM32F103C8 (Simulated)Debugger: ST-Link / J-Link (implied)🚀 Getting StartedTo run these projects:Open the .uvprojx file located in the MDK-ARM or root folder of the specific project (e.g., inside led_blink).Ensure the correct Pack is installed in Keil for the specific chip family (F0 or F1).Build the target (F7) and flash to the board.📝 NotesProjects named with _deneme are experimental trial runs.The STM32F070 folder contains the most recent updates as of early 2026.
+# STM32 Embedded Systems Projects
+
+This repository contains my learning journey, driver implementations, and projects for various STM32 microcontrollers. It includes work on the **STM32F070**, **STM32F107VC**, and **STM32F103C8** (simulation).
+
+## 📂 Repository Structure
+
+The projects are organized by microcontroller series and peripheral functionality.
+
+### 1. STM32F070 (Value Line)
+*Recent driver implementations developed in Jan 2026.*
+
+| Project Folder | Description |
+| :--- | :--- |
+| **`adc_F070`** | Analog-to-Digital Converter implementation for sensor reading. |
+| **`led_blink_F070`** | Basic GPIO setup and "Hello World" LED blinking. |
+| **`pwm_F070`** | Pulse Width Modulation setup (LED brightness/motor control). |
+| **`uart_F070`** | Serial communication (UART) driver implementation. |
+
+### 2. STM32F107VC & Peripheral Experiments
+*Modular driver testing and specific component interfacing.*
+
+* **`7-segment/`**: Logic for driving 7-segment displays.
+* **`Buzzer/`**: GPIO control for audio feedback (Buzzer).
+* **`EX33D project/`**: Specific project implementation (Jan 2026).
+* **`LCD_deneme/`**: LCD interfacing trials and character display tests.
+* **`PWM/`**: General PWM signal generation tests.
+* **`Timers/`**: Hardware timer configurations for delays and interrupts.
+* **`USART/`**: Universal Synchronous/Asynchronous Receiver-Transmitter tests.
+
+### 3. Simulation
+* **`proteus_F103c8/`**: Proteus simulation schematics and code for the STM32F103C8 (Blue Pill).
+
+---
+
+## 🛠 Tools & Environment
+
+* **IDE:** Keil µVision 5 (MDK-ARM)
+* **Simulation Software:** Proteus
+* **Hardware:**
+  * STM32F070RB
+  * STM32F107VC
+  * STM32F103C8 (Simulated)
+
+## 🚀 Getting Started
+
+1. **Clone the repo.**
+2. **Open the Project:** Navigate to a project folder (e.g., `led_blink_F070`) and open the `.uvprojx` file in Keil µVision.
+3. **Build:** Press `F7` or click the **Build** button to compile.
+4. **Flash:** Connect your ST-Link and press `F8` (Download) to load the code onto the microcontroller.
+
+## 📝 Notes
+
+* Folders suffixed with `_deneme` indicate experimental or trial code ("deneme" means "trial" in Turkish).
+* The `STM32F070` directory contains the most recent updates as of early 2026.
