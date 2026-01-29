@@ -2,7 +2,7 @@
 
 This repository contains my learning journey, driver implementations, and projects for various STM32 microcontrollers. It includes work on the **STM32F070**, **STM32F107VC**, and **STM32F103C8** (simulation).
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The projects are organized by microcontroller series and peripheral functionality.
 
@@ -32,7 +32,7 @@ The projects are organized by microcontroller series and peripheral functionalit
 
 ---
 
-## 🛠 Tools & Environment
+## Tools & Environment
 
 * **IDE:** Keil µVision 5 (MDK-ARM)
 * **Simulation Software:** Proteus
@@ -41,14 +41,14 @@ The projects are organized by microcontroller series and peripheral functionalit
   * STM32F107VC
   * STM32F103C8 (Simulated)
 
-## 🚀 Getting Started
+##  Usage
 
 1. **Clone the repo.**
 2. **Open the Project:** Navigate to a project folder (e.g., `led_blink_F070`) and open the `.uvprojx` file in Keil µVision.
 3. **Build:** Press `F7` or click the **Build** button to compile.
 4. **Flash:** Connect your ST-Link and press `F8` (Download) to load the code onto the microcontroller.
 
-## 📝 Notes
+## Notes
 
 * Folders suffixed with `_deneme` indicate experimental or trial code ("deneme" means "trial" in Turkish).
 * The `STM32F070` directory contains the most recent updates as of early 2026.
